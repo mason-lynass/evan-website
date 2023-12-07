@@ -1,0 +1,9 @@
+main img {
+    width: calc(100vw - 300px);
+    margin: auto;
+    display: block;
+}
+
+main {
+    margin-top: 25px; 
+}

@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 900px;
+    margin: auto;
+}
+
+.one-rec {
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.one-rec img {
+    width: 250px;
+}
+
+.one-rec-group {
+    font-weight: bold;
+}
+
+.one-rec-name {
+    font-style: italic;
+}
