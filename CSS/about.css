@@ -17,3 +17,10 @@ section {
 .one-group-first {
     font-weight: bold;
 }
+
+@media screen and (max-width: 700px) {
+    main {
+        width: 90vw;
+        margin: 20px auto;
+    }
+}

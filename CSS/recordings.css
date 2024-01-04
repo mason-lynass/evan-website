@@ -4,13 +4,14 @@ main {
     justify-content: center;
     align-items: flex-start;
     width: 900px;
-    margin: auto;
+    margin: 20px auto;
+    gap: 20px;
 }
 
 .one-rec {
     width: 300px;
     text-align: center;
-    margin: 20px auto;
+    margin: auto;
 }
 
 .one-rec img {

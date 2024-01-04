@@ -1,9 +1,20 @@
 main img {
-    width: calc(100vw - 300px);
-    margin: auto;
+    width: 60vw;
+        height: calc(60vw * 2742 / 2048);
+        max-height: 85vh;
+        max-width: calc(85vh * 2048 / 2742);
+    margin-left: auto;
     display: block;
 }
 
 main {
     margin-top: 25px; 
+}
+
+@media screen and (max-width: 700px) {
+    main img {
+        margin: auto;
+        height: calc(90vw / 2048 * 2742);
+        width: 94vw;
+     }
 }
