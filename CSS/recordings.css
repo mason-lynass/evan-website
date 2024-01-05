@@ -1,9 +1,10 @@
-main {
+#recordings {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
-    width: 900px;
+    width: calc(100vw - 350px);
+    max-width: 1200px;
     margin: 20px auto;
     gap: 20px;
 }
@@ -15,7 +16,8 @@ main {
 }
 
 .one-rec img {
-    width: 250px;
+    width: 100%;
+    min-width: 250px;
 }
 
 .one-rec-group {

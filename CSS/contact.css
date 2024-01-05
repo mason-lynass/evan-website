@@ -1,19 +1,26 @@
 main img {
-    width: 90vw;
-    max-width: 900px;
+    width: 55vw;
+    max-width: 700px;
+    height: calc(55vw / 2048 * 2742);
+    max-height: calc(700px / 2048 * 2742);
     margin: 10px auto;
     display: block;
 }
 
 #contact-main-text {
-    width: 90vw;
-    max-width: 900px;
+    width: calc(50vw / 2742 * 2048);
+    max-width: 700px;
     margin: auto;
+    text-align: center;
 }
 
 @media screen and (max-width: 700px) {
     main img {
         height: calc(90vw / 2048 * 2742);
+        width: 94vw;
+     }
+
+     #contact-main-text {
         width: 94vw;
      }
 }
